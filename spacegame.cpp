@@ -68,7 +68,7 @@ bool flag3 = false;
     ast.setScale(2,2);
     ast.setPosition(-700,-150);
 
-    /*RectangleShape k2 (Vector2f(100,30));
+    RectangleShape k2 (Vector2f(100,30));
     k2.setFillColor(Color(0,255,64));
     k2.setPosition(1270,a);
 
@@ -82,7 +82,7 @@ bool flag3 = false;
 
     RectangleShape k4 (Vector2f(100,30));
     k4.setFillColor(Color(0,255,64));
-    k4.setPosition(1270,d);*/
+    k4.setPosition(1270,d);
 
     Sprite mas[s];
 
@@ -90,10 +90,10 @@ bool flag3 = false;
         mas[i] = k1;
     }
 
-    //for (int i=0; i<s; i++){
-    //    mas[i].setPosition(a1=a1+(1280-s*100/s), c);
-    //    c=rand()%720;
-    //}
+    for (int i=0; i<s; i++){
+        mas[i].setPosition(a1=a1+(1280-s*100/s), c);
+        c=rand()%720;
+    }
 
 
     Font font;
@@ -167,7 +167,7 @@ bool flag3 = false;
                 mx = event.mouseMove.x;
                 my = event.mouseMove.y;
 
-                    //r1.setPosition(mx,my);
+                    r1.setPosition(mx,my);
 
         }
 
