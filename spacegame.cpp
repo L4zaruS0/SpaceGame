@@ -283,7 +283,7 @@ if(event.type ==Event::KeyPressed){
             textS.setPosition(720,140);
             textS.setScale(4,4);
 
- /9+++               if(text3.getGlobalBounds().contains(Mx, My)){
+                if(text3.getGlobalBounds().contains(Mx, My)){
                         scene = 0;
                     }
             ast.setPosition(-700,-150);
